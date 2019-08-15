@@ -1,0 +1,84 @@
+snippet beg "begin{} / end{}" bA
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+snippet equation "Environment: Equation" b
+\begin{equation}
+	${0}
+\end{equation}
+endsnippet
+
+snippet dd "Display math" wA
+\[
+	${0}
+\]
+endsnippet
+
+snippet align "Environment: Align"
+\begin{align}
+	${0}
+\end{align}
+endsnippet
+
+snippet /\_\_/ "Subscript" riA
+_{$1}$0
+endsnippet
+
+snippet /\^\^/ "Superscript" riA
+^{$1}$0
+endsnippet
+
+snippet sec
+\section{$1}$0
+endsnippet
+
+snippet sub
+\subsection{$1}$0
+endsnippet
+
+snippet subsub
+\subsubsection{$1}$0
+endsnippet
+
+snippet " "Quotes" A
+\`\`${1:${VISUAL}}''${0}
+endsnippet
+
+snippet itemize
+\begin{itemize}
+	\item ${0}
+\end{itemize}
+endsnippet
+
+snippet enumerate
+\begin{enumerate}
+	\item ${0}
+\end{enumerate}
+endsnippet
+
+snippet table
+\begin{table}
+	\centering
+	\caption{$1}
+	\label{tab:$2}
+	\begin{tabular}{$3}
+		\toprule
+		$4
+		\midrule
+		$0
+		\bottomrule
+	\end{tabular}
+\end{table}
+endsnippet
+
+snippet figure "figure" 
+\begin{figure}
+	\centering
+	\includegraphics[]{}
+	\caption{${0}}
+	\label{fig:${1}}
+\end{figure}
+endsnippet
+
