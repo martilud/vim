@@ -34,7 +34,7 @@ Plugin 'tpope/vim-unimpaired'   " nifty keymappings, learn to use!
 
 " Theme
 Plugin 'dracula/vim', { 'as': 'dracula' }
-
+Plugin  'JuliaEditorSupport/julia-vim'
 " Snippet DOES NOT WORK
 Plugin 'sirver/ultisnips'
 let g:UltiSnipsSnippetDirectories=["/home/martinlu/.vim/UltiSnips"]
